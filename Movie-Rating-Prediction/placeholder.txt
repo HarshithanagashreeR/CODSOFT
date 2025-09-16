@@ -10,7 +10,7 @@ Key Steps
 Model Building: Trained a `RandomForestRegressor` to learn the patterns between movie features and their ratings.
  Results
 The model's performance was evaluated using regression metrics:
-* Mean Squared Error (MSE): [Enter Your MSE Here, e.g., 1.25]
-* R-squared (R2) Score: [Enter Your R2 Score Here, e.g., 0.78]
+* Mean Squared Error (MSE): [Mean Squared Error (MSE): 1.60]
+* R-squared (R2) Score: [R-squared (R2) Score: 0.14]
 
 The R2 score indicates that the model can explain a significant portion of the variance in movie ratings.
