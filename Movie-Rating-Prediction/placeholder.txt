@@ -1,1 +1,20 @@
+# Movie Rating Prediction with Python
 
+## Objective
+This project focuses on building a regression model to predict IMDb ratings for movies. The goal was to preprocess a complex dataset and apply machine learning techniques to estimate a movie's rating based on its genre, director, and actors.
+
+## Dataset
+The dataset used is the "IMDb India Movies" dataset, available on [Kaggle](https://www.kaggle.com/datasets/adrianmcmahon/imdb-india-movies).
+
+## Key Steps
+* **Data Cleaning**: Handled a large number of missing values by dropping rows with incomplete essential data.
+* **Feature Preprocessing**: Cleaned and converted the 'Year' and 'Duration' columns into numerical formats.
+* **Categorical Encoding**: Used Scikit-learn's `LabelEncoder` to convert text-based features with many unique values (Genre, Director, Actors) into a numerical format suitable for modeling.
+* **Model Building**: Trained a `RandomForestRegressor` to learn the patterns between movie features and their ratings.
+
+## Results
+The model's performance was evaluated using regression metrics:
+* **Mean Squared Error (MSE)**: **[Enter Your MSE Here, e.g., 1.25]**
+* **R-squared (R2) Score**: **[Enter Your R2 Score Here, e.g., 0.78]**
+
+The R2 score indicates that the model can explain a significant portion of the variance in movie ratings.
